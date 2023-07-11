@@ -8,7 +8,7 @@ body {
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-    margin: 0px;
+    margin-bottom: 0px;
 }
 
 .common-des {
@@ -16,7 +16,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    padding-top: 12px;
+    margin-top: 12px;
 }
 
 .button-primary {
@@ -27,12 +27,25 @@ body {
     border: none;
 }
 
+.title-secondary-color {
+    color: #E55473;
+}
+
+/*main section styles */
+
+main {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+main {
+    margin-top: 140px;
+}
+
 /*header styles */
 
 .header {
     background-color: #FCEEF1;
-    max-width: 1920px;
-    max-height: 850px;
     padding: 0px 240px;
     margin: 0px;
 }
@@ -133,6 +146,7 @@ header img {
     padding: 100px 430px 100px 410px;
     text-align: center;
     align-items: center;
+    margin: 0;
 }
 
 .hot-deal-title {
@@ -142,17 +156,72 @@ header img {
     margin-bottom: 0;
 }
 
-.title-secondary-color {
-    color: #E55473;
+/* instagram section styles */
+
+.instagram {
+    text-align: center;
+    margin: 140px 240px;
 }
 
-.hot-deal-des {
-    color: rgba(39, 39, 39, 0.60);
+.instagram-gallery {
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+    margin-top: 42px;
+}
+
+/* subscription section styles */
+
+.subscription {
+    background-image: url("../Flower Asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 122px 287px;
+    margin-top: 140px;
+}
+
+.email-sub {
+    border-radius: 8px;
+    padding: 20px 43px;
+    margin-right: 16px;
+    border: none;
+    width: 500px;
+}
+
+/* footer styles */
+
+.footer {
+    background-color: black;
+    text-align: center;
+    padding: 128px 0px;
+    margin-top: 140px;
+}
+
+.footer-title {
+    color: white;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.footer-des {
+    color: rgba(255, 255, 255, 0.90);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     margin-top: 24px;
-    margin-bottom: 32px;
-    width: 594px;
+    margin-bottom: 24px;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0px;
 }
