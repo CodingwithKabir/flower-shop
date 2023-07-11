@@ -1,1 +1,51 @@
 /* Common sections styles */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/*header styles */
+
+.header {
+    background-color: #FCEEF1;
+    max-width: 1920px;
+    max-height: 850px;
+    padding: 0px 240px;
+    margin: 0px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    max-width: 600px;
+    padding-top: 50px;
+}
+
+.header-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    max-width: 700px;
+    padding-right: 90px;
+    margin: 0px;
+}
+
+.header-des {
+    padding: 15px 170px 15px 0px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 634px;
+}
+
+.button-primary {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    color: white;
+    border: none;
+}
